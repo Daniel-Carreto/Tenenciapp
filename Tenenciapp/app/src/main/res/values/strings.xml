@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tenenciapp</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_auto">AutoActivity</string>
+
+    <string-array name="titulos">
+        <item>Tenencia</item>
+        <item>Verificación</item>
+        <item>Infracción</item>
+    </string-array>
+
+
+
+    <string name="marca">Marca</string>
+    <string name="sub_marca">Submarca</string>
+    <string name="modelo">Seleccione Modelo</string>
+    <string name="placas">Placas</string>
+    <string name="engomado">Seleccione Engomado</string>
+    <string name="registrar">Registrar</string>
+    <string name="autos_vacio">Registra un auto!</string>
+    <string name="presenta_adeudos">Presenta Adeudos: </string>
+
+    <string-array name="color_engomado">
+
+        <item>Amarillo</item>
+        <item>Rosa</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+    </string-array>
+
+
+    <string-array name="selecciona_modelo">
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+    </string-array>
+</resources>

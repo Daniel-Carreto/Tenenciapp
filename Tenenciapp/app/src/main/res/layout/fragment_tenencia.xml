@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TenenciaFragment">
+
+    <TextView
+        android:id="@+id/txtPlacas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placas: "
+        android:layout_above="@+id/txtAdeudo"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginBottom="18dp" />
+    <TextView
+        android:id="@+id/txtNumPlacas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtPlacas"
+        android:layout_toRightOf="@id/txtPlacas"
+        android:layout_toEndOf="@id/txtPlacas"
+        />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/presenta_adeudos"
+        android:id="@+id/textView"
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+    <TextView
+        android:id="@+id/txtAdeudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+</RelativeLayout>

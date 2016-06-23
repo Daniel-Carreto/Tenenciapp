@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearItem"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:layout_height="150dp"
+    android:descendantFocusability="blocksDescendants">
+
+   <TextView
+       android:id="@+id/txtCertificado"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Certificado"/>
+
+
+    <TextView
+        android:id="@+id/txtVigencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vigencia"/>
+
+    <TextView
+        android:id="@+id/txtVerificentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificentro"/>
+
+
+    <TextView
+        android:id="@+id/txtFechaVerificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha Verificacion"/>
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reesultado"/>
+    <TextView
+        android:id="@+id/txtCausaRechazo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CausaRechazo"/>
+</LinearLayout>

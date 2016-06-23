@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearItem"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="16dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/txtFolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Folio"/>
+
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"/>
+
+    <TextView
+        android:id="@+id/txtSituacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"/>
+
+
+    <TextView
+        android:id="@+id/txtMotivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motivo"/>
+    <TextView
+        android:id="@+id/txtSancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sancion"/>
+
+</LinearLayout>
